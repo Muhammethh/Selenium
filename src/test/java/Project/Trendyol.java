@@ -46,11 +46,11 @@ public class Trendyol {
 
 
         //mail yazma kısmına mail yazacak
-        driver.findElement(By.xpath("//input[@id='login-email']")).sendKeys("molunk@gmail.com");
+        driver.findElement(By.xpath("//input[@id='login-email']")).sendKeys("MAİL");
 
 
         //Şifre kısmına şifre yazacak
-        driver.findElement(By.xpath("//input[@id='login-password-input']")).sendKeys("d8r6c47yk2");
+        driver.findElement(By.xpath("//input[@id='login-password-input']")).sendKeys("ŞİFRE");
 
         //Giriş yapa tıklayacak
         driver.findElement(By.xpath("//button[@type='submit']")).click();
